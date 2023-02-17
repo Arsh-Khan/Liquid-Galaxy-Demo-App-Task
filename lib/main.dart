@@ -6,9 +6,9 @@ import 'package:liquidgalaxydemoapp/views/stash_view.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(MaterialApp(
-    home: StashView(),
+    home: const StashView(),
     routes: {
-      homePageRoute: (context) => HomePageView(),
+      homePageRoute: (context) => const HomePageView(),
     },
   ));
 }

@@ -93,7 +93,7 @@ class _HomePageViewState extends State<HomePageView> {
                 ),
                 child: InkWell(
                   splashColor: Colors.transparent,
-                  onTap: () async {
+                  onTap: () {
                     messageOnTap('Button-2');
                   },
                   child: Center(
